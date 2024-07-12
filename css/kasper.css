@@ -393,7 +393,6 @@ header .container .search i {
 /*End Landing Section Rules*/
 
 /*Start Services Section Rules */
-
 .services {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
@@ -402,8 +401,6 @@ header .container .search i {
 @media (min-width: 768px) {
   .services .container .services-container {
     display: grid;
-    /* grid-template-columns: auto auto;
-        grid-template-rows: auto auto; */
     grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     grid-column-gap: 40px;
     grid-row-gap: 60px;
@@ -451,7 +448,6 @@ header .container .search i {
 /*End Services Section Rules */
 
 /* Start Design Section  Rules */
-
 .design {
   width: 100%;
   height: 600px;
@@ -524,11 +520,9 @@ header .container .search i {
     font-size: 20px;
   }
 }
-
 /* End Design Section  Rules */
 
 /*Start Portfolio Section Rules */
-
 .portfolio {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
@@ -556,8 +550,6 @@ header .container .search i {
     grid-template-columns: repeat(auto-fill, minmax(calc(100% / 4), 1fr));
   }
 } 
-
-
 */
 
 .portfolio .image-conatiner {
@@ -648,7 +640,7 @@ header .container .search i {
 
 /*End Portfolio Section Rules */
 
-/* <!-- Start Video --> */
+/*  Start Video  */
 .video {
   position: relative;
 }
@@ -700,8 +692,7 @@ header .container .search i {
   border: none;
   text-transform: uppercase;
 }
-
-/* <!-- End Video --> */
+/*  End Video  */
 
 /*Start About Section Rules */
 .about {
@@ -727,10 +718,9 @@ header .container .search i {
     bottom: -90px;
   }
 }
-
 /*End About Section Rules */
 
-/* <!-- Start Stats --> */
+/*  Start Stats  */
 .stats {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
@@ -797,10 +787,9 @@ header .container .search i {
 .stats .container .box p {
   font-size: 14px;
 }
+/*  End Stats  */
 
-/* <!-- End Stats --> */
-
-/* <!-- Start Testimonials-Skills --> */
+/*  Start Testimonials-Skills  */
 .testimonials-skills {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
@@ -975,10 +964,9 @@ header .container .search i {
   top: -14px;
   transform: translateX(-50%);
 }
+/*  End Testimonials-Skills  */
 
-/* <!-- End Testimonials-Skills --> */
-
-/* <!-- Start Quote --> */
+/*  Start Quote  */
 .quote {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
@@ -1033,8 +1021,7 @@ header .container .search i {
     font-size: 25px;
   }
 }
-
-/* <!-- End Quote --> */
+/*  End Quote  */
 
 /*Start Contact Section Rules */
 .contact .container {
@@ -1049,7 +1036,6 @@ header .container .search i {
     padding-bottom: var(--mobile-padding);
   }
 }
-
 /*End Contact Section Rules */
 
 /*Start Pricing Section Rules */
@@ -1157,11 +1143,9 @@ header .container .search i {
     padding-bottom: var(--mobile-padding);
   }
 }
-
 /*End Pricing Section Rules*/
 
 /* Start Subscribe Section */
-
 .subscribe {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
@@ -1253,7 +1237,6 @@ header .container .search i {
 /* End Subscribe Section */
 
 /* Start Contact Section */
-
 .contact {
   padding-top: var(--section-padding);
 }
@@ -1357,11 +1340,9 @@ header .container .search i {
     line-height: 1.2;
   }
 }
-
 /* End  Contact Section */
 
-/* <!-- Start Footer Section  --> */
-
+/*  Start Footer Section   */
 footer {
   padding-top: calc(var(--mobile-padding) / 2);
   padding-bottom: calc(var(--mobile-padding) / 2);
@@ -1424,5 +1405,4 @@ footer .container small span {
   font-weight: bold;
   color: var(--main-color);
 }
-
-/* <!-- End Footer Section  --> */
+/*  End Footer Section   */
